@@ -20,6 +20,7 @@ namespace LeastSquares
         public SteamLeaderboardDisplay DisplayType = SteamLeaderboardDisplay.Numeric;
         private Leaderboard? _leaderboard;
 
+        
         /// <summary>
         /// Creates or finds the leaderboard if it doesnt exist. Does not do anything if Steam has not been loaded first.
         /// </summary>
